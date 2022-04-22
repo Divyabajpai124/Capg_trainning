@@ -1,4 +1,4 @@
-package Controllers;
+package com.example.demo;
 
 import java.util.List;
 
@@ -11,15 +11,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.example.demo.Developer;
-import com.example.demo.DeveloperRepository;
-import com.example.demo.DeveloperService;
-import com.example.demo.Login;
-import com.example.demo.LoginService;
-import com.example.demo.Project2;
-import com.example.demo.ProjectService;
-import com.example.demo.loginRepo;
 
 @RestController
 @RequestMapping("/UserLogin")

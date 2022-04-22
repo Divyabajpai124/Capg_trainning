@@ -11,16 +11,11 @@ import javax.persistence.Table;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 @JsonIgnoreProperties("hibernateLazyInitializer")
 @Setter
 @Getter
-@AllArgsConstructor
-@NoArgsConstructor
 @Entity
 
 public class Project2  implements Serializable{
