@@ -34,7 +34,7 @@ public class Project2  implements Serializable{
 		Strtdate = strtdate;
 		this.endate = endate;
 	}
-	public int getProid() {
+	public  getProid() {
 		return proid;
 	}
 	public void setProId(int proid) {
